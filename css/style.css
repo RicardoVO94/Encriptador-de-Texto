@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Inter;
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+
+* {
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 20px;
+    width: 120px;
+}
+
+main {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.text-area-msg {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.text-area-msg:focus {
+    outline: none;
+}
+
+.text-area-code {
+    background: #FFFFFF;
+    border-radius: 32px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding-left: 30px;
+}
+
+.text-area-code:focus {
+    outline: none;
+}
+
+.exclamacion-circulo {
+    float: left;
+    margin-right: 5px;
+}
+
+.info {
+    color: #0A3871;
+    font-size: 12px;
+}
+
+.btn-two {
+    display: flex;
+    margin-top: 50px;
+}
+
+.btn-encriptar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 70px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 70px;
+    width: 300px;
+}
+
+.btn-copiar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 70px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
