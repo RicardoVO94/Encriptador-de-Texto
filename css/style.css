@@ -13,7 +13,7 @@
 }
 
 .logo {
-    padding-top: 10px;
+    padding-top: 40px;
     margin-left: 20px;
     width: 120px;
 }
@@ -27,7 +27,8 @@ main {
 .text-area-msg {
     border: none;
     color: #0A3871;
-    margin-top: 90px;
+    margin-left: 120px;
+    margin-top: 50px;
     text-transform: lowercase;
 }
 
@@ -41,6 +42,9 @@ main {
 
 .text-area-code {
     background: #FFFFFF;
+    background-image: url(/assets/img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 32px;
     border: none;
     margin-top: 30px;
@@ -55,16 +59,19 @@ main {
 .exclamacion-circulo {
     float: left;
     margin-right: 5px;
+    margin-left: 120px;
 }
 
 .info {
     color: #0A3871;
     font-size: 12px;
+    margin-left: 120px;
 }
 
 .btn-two {
     display: flex;
     margin-top: 50px;
+    margin-left: 120px;
 }
 
 .btn-encriptar {
@@ -96,6 +103,6 @@ main {
     cursor: pointer;
     height: 70px;
     width: 300px;
-    margin-left: 100px;
-    margin-top: 150px;
+    margin-left: 150px;
+    margin-top: 120px;
 }
